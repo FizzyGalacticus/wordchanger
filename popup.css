@@ -1,0 +1,50 @@
+html, body {
+	width: 400px;
+}
+
+#title {
+	text-align: center;
+}
+
+#titleSeperator {
+	width: 70%;
+}
+
+#addFieldButton, #saveButton {
+  float: right;
+  margin-right: 10px;
+}
+
+.wordContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wordField, .changeToField {
+  width: 35%;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.wordField {
+  margin-right: 5px;
+}
+
+.changeToField {
+  
+}
+
+.matchCaseContainer {
+
+}
+
+.matchCaseLabel {
+	float: left;
+}
+
+.matchCaseCheckbox {
+	float: right;
+}

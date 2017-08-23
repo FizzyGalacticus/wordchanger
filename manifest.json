@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Word Changer",
+
+  "description": "This is a test extension.",
+
+  "version": "0.5",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches":["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
